@@ -47,6 +47,7 @@
     font-size: 2.5rem;
     line-height: 2.8rem;
     color: #191245;
+    font-family: Marko One;
 }
 
 .tp_right_content h1 span {
@@ -96,7 +97,7 @@
 }
 
 .tp_hr {
-    width: 82%;
+    width: 85%;
 }
 
 .tp_patternLeft {

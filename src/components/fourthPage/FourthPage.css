@@ -34,6 +34,7 @@
     line-height: 2.5rem;
     color: #191245;
     margin-bottom: 2rem;
+    font-family: Marko One;
 }
 
 .four_right_content h1 span {
@@ -50,6 +51,8 @@
 .four_right_content h3 {
     margin-top: 1.5rem;
     color: #191245;
+    font-size: 1rem;
+    font-family: Marko One;
 }
 
 .four_right_content img {
@@ -66,7 +69,7 @@
 
 .four_patternLeft {
     position: absolute;
-    top: 58%;
+    top: 72%;
     left: 25%;
     width: 6rem;
 }
