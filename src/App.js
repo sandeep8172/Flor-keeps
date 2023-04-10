@@ -1,5 +1,6 @@
 import './App.css';
 import Home from './components/homePage/Home';
+import FourthPage from './components/fourthPage/FourthPage';
 import SecondPage from './components/secondPage/SecondPage';
 import ThirdPage from './components/thirdPage/ThirdPage';
 
@@ -9,6 +10,7 @@ function App() {
       <Home />
       <SecondPage />
       <ThirdPage />
+      <FourthPage />
     </div>
   );
 }

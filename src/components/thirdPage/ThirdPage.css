@@ -83,6 +83,7 @@
 .tp_right_content section div p {
     font-size: 0.7rem;
     color: #D76161;
+    text-transform: capitalize;
 }
 
 .tp_footer {
