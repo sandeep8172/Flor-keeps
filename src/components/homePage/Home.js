@@ -12,26 +12,18 @@ import leftPattern from "../assets/home/left_pattern.png";
 import rose from "../assets/home/Rose.png";
 import rightPattern from "../assets/home/right_pattern.png";
 
-
 const Home = () => {
     const [toggle, setToggle] = useState(false)
-    const [menuClass, setMenuClass] = useState("menu_wrapper")
 
     const toggleMenuHandler = () => {
         setToggle(true)
-        if (toggle) {
-            setMenuClass("show_menu_wrapper menu_wrapper")
-        }
     }
     const toggleCrossHandler = () => {
         setToggle(false)
-        if (!toggle) {
-            setMenuClass("menu_wrapper")
-        }
     }
     return (
         <div className="home_wrapper">
-            <div className={menuClass}>
+            <div className={toggle ? "show_menu_wrapper menu_wrapper" : "menu_wrapper"}>
                 <div className="top_img">
                     <img className="top_logo" src={menuLogo} alt="logo" />
                     <img onClick={toggleCrossHandler} className="menu_icon" src={cross} alt="cross" />
@@ -55,7 +47,7 @@ const Home = () => {
                     </section>
                     <section className="fp_right_content">
                         <img src={homeImage} alt="homeImage" className="home_image" />
-                        <p>The Classic <span><img className="pre_arrow" src={preArrow} alt="pevious" /><img className="next_arrow" src={nextArrow} alt="next" /></span></p>
+                        <p>The Classic <span><img src={preArrow} alt="pevious" /><img src={nextArrow} alt="next" /></span></p>
                     </section>
                 </div>
                 <div className="fp_footer"><hr className="home_hr" /><p>What are Preserved flowerss</p></div>
