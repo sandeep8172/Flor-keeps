@@ -1,6 +1,6 @@
 .home_wrapper {
-    height: 100vh;
     overflow-x: hidden;
+    position: relative;
 }
 
 .menu_wrapper {
