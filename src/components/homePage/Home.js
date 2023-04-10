@@ -50,7 +50,7 @@ const Home = () => {
                         <p>The Classic <span><img src={preArrow} alt="pevious" /><img src={nextArrow} alt="next" /></span></p>
                     </section>
                 </div>
-                <div className="fp_footer"><hr className="home_hr" /><p>What are Preserved flowerss</p></div>
+                <div className="fp_footer"><hr className="home_hr" /><p>What are Preserved flowers</p></div>
 
                 <img className="fp_leftPattern" src={leftPattern} alt="" />
                 <img className="fp_rose" src={rose} alt="" />

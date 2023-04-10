@@ -28,6 +28,8 @@
     margin-top: 1rem;
     width: 65%;
     font-size: 0.8rem;
+    color: #191245;
+
 }
 
 .sp_left_content h3 {
@@ -48,7 +50,7 @@
 
 .sp_image {
     width: 90%;
-    border-radius: 50% 50% 0 0;
+    border-radius: 20rem 20rem 0 0;
 }
 
 .sp_right_content aside {
@@ -88,7 +90,7 @@
     color: #E7A1A1;
     font-size: 6rem;
     position: absolute;
-    left: 48%;
+    left: 47%;
     top: 66%;
 }
 
