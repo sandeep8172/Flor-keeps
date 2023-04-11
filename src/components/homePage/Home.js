@@ -11,6 +11,8 @@ import redArrow from "../assets/home/redArrow.png";
 import leftPattern from "../assets/home/left_pattern.png";
 import rose from "../assets/home/Rose.png";
 import rightPattern from "../assets/home/right_pattern.png";
+import roundText from "../assets/home/roundText.png";
+import curvedText from "../assets/home/curvedText.png";
 
 const Home = () => {
     const [toggle, setToggle] = useState(false)
@@ -33,6 +35,8 @@ const Home = () => {
                     <hr className="menu_hr" />
                     <h1>About</h1>
                 </div>
+                <img className="curvedText" src={curvedText} alt="" />
+                <img className="rondText" src={roundText} alt="" />
             </div>
             <div className="firstPage_wrapper">
                 <div className="top_img">

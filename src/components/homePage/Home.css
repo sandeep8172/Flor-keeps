@@ -55,6 +55,19 @@
     transform: translateX(-45%);
 }
 
+.curvedText {
+    position: absolute;
+    bottom: 8%;
+    width: 100%;
+}
+
+.rondText {
+    position: absolute;
+    width: 4rem;
+    top: 23%;
+    left: 54.5%;
+}
+
 .firstPage_wrapper {
     position: relative;
 }

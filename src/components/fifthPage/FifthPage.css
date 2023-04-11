@@ -1,7 +1,6 @@
 .fifthPage_wrapper {
     background-image: url("../assets/fifthPage/background.png");
     margin-top: -7%;
-    height: 117vh;
     position: relative;
     z-index: -2;
     overflow: hidden;
@@ -10,6 +9,7 @@
 .fifthPage_content {
     text-align: center;
     padding-top: 22%;
+    padding-bottom: 2rem;
 }
 
 .fifth_prev {
@@ -66,7 +66,7 @@
 .rose3_backgrond {
     position: absolute;
     width: 18%;
-    top: 46%;
+    top: 48%;
     left: 41%;
     z-index: -1;
 }

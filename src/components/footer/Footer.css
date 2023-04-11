@@ -1,0 +1,132 @@
+.footer_wrapper {
+    position: relative;
+}
+
+.footer_top {
+    background-image: url("../assets/footer/solidBackground.png");
+    height: 15rem;
+}
+
+.footer_top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: Marko One;
+    font-size: 2rem;
+}
+
+.footer_mid {
+    position: relative;
+    margin-top: -5.5rem;
+    background-color: #19133B;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 6rem;
+}
+
+.footer_mid h1 {
+    font-family: Marko One;
+    font-size: 2.3rem;
+    padding-top: 3rem;
+}
+
+.footer_mid h1 span {
+    color: #D76161;
+}
+
+.footer_mid section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4.5rem;
+    width: 35%;
+    border-bottom: 1px solid #363636;
+    padding-bottom: 0.5rem;
+}
+
+.footer_mid section input {
+    width: 60%;
+    background-color: #19133B;
+    border: none;
+    color: white;
+}
+
+.footer_mid section input:focus {
+    outline: none;
+}
+
+.footer_mid section p {
+    font-size: 1.2rem;
+}
+
+.footer_mid section p:last-child {
+    color: #D76161;
+    font-weight: 600;
+}
+
+.footer_mid section p img {
+    width: 1rem;
+    padding-left: 0.5rem;
+}
+
+.footer_mid h2 {
+    margin-top: 6rem;
+    font-family: Marko One;
+    z-index: +1;
+}
+
+.footer_mid h2 img {
+    width: 0.7rem;
+}
+
+.website {
+    margin-top: 2rem;
+    color: #D76161;
+    font-size: 0.8rem;
+    z-index: +1;
+}
+
+.address {
+    margin-top: 1rem;
+    font-size: 0.8rem;
+    z-index: +1;
+}
+
+.footer_bottom {
+    display: flex;
+    width: 95%;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5rem;
+    z-index: +1;
+}
+
+.footer_bottom p:first-child {
+    font-size: 0.7rem;
+}
+
+.footer_bottom p:last-child {
+    display: flex;
+    align-items: center;
+    font-size: 0.7rem;
+    padding: 0.5rem 0;
+}
+
+.footer_bottom p:last-child img {
+    padding: 0 0.5rem;
+    width: 1.5rem;
+}
+
+.footer_bottom p:last-child span {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.backLogo {
+    position: absolute;
+    width: 100%;
+}
