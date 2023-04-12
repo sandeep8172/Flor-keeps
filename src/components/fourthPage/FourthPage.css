@@ -140,3 +140,104 @@
         width: 3rem;
     }
 }
+
+/* media querry for Large screen mobile  */
+
+@media (max-width:426px) {
+    .fourthPage_content {
+        display: block;
+        padding: 0;
+        position: relative;
+    }
+
+    .four_left_content {
+        display: flex;
+        position: absolute;
+        top: 15%;
+        width: 100%;
+        justify-content: center;
+
+    }
+
+    .four_image1 {
+        flex: 1;
+        text-align: right;
+        margin-right: 0.5rem;
+    }
+
+
+    .four_image1 img {
+        width: 80%;
+    }
+
+    .four_image2 {
+        flex: 1;
+        text-align: left;
+        margin-left: 0.5rem;
+    }
+
+    .four_image2 img {
+        width: 70%;
+    }
+
+    .four_right_content {
+        margin-top: 2rem;
+    }
+
+    .four_right_content h1 {
+        font-size: 1.8rem;
+        line-height: 2rem;
+        margin: 0 auto;
+        margin-bottom: 65%;
+        text-align: center;
+    }
+
+    .four_right_content h1 span {
+        color: #191245;
+        padding-left: 0.5rem;
+    }
+
+    .four_right_content p {
+        font-size: 0.7rem;
+        width: 60%;
+        margin: 0 auto;
+        font-weight: 600;
+        margin-top: 1rem;
+        line-height: 1.5rem;
+    }
+
+    .four_firstPara {
+        display: block;
+    }
+
+    .four_right_content h3 {
+        margin-top: 0.8rem;
+        font-size: 0.8rem;
+        margin-left: 20%;
+    }
+
+    .four_right_content img {
+        width: 0.6rem;
+    }
+
+    .four_patternTop {
+        top: 79%;
+        left: 12%;
+        width: 20%;
+        z-index: -1;
+    }
+
+    .four_patternLeft {
+        z-index: -1;
+        top: 40%;
+        left: 35%;
+        width: 15%;
+    }
+
+    .four_patternRight {
+        z-index: -1;
+        top: 60%;
+        right: 10%;
+        width: 3rem;
+    }
+}

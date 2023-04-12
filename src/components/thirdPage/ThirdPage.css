@@ -193,3 +193,87 @@
         width: 16rem;
     }
 }
+
+/* media querry for Large screen mobile  */
+@media (max-width:426px) {
+    .thirdPage_wrapper {
+        margin-top: 0rem;
+        padding-bottom: 1rem;
+    }
+
+    .thirdPage_content {
+        display: block;
+        position: relative;
+        text-align: center !important;
+        padding-top: 2rem;
+    }
+
+    .tp_left_content {
+        position: absolute;
+        top: 25%;
+    }
+
+    .tp_left_content p {
+        font-size: 0.7rem;
+        margin: 1rem auto 0 auto;
+        padding-bottom: 1rem;
+    }
+
+    .tp_right_content {
+        padding: 0;
+    }
+
+    .tp_right_content h1 {
+        width: 50%;
+        margin: 0 auto;
+        font-size: 1.8rem;
+        line-height: 2.5rem;
+    }
+
+    .tp_right_content>p {
+        font-size: 0.7rem;
+        font-weight: 600;
+        margin: 0 auto;
+        margin-bottom: 97%;
+        margin-top: 2%;
+        width: 60%;
+        line-height: 1.3rem;
+    }
+
+    .tp_right_content section {
+        width: 60%;
+        margin: 0 auto;
+        padding-bottom: 1rem;
+    }
+
+    .tp_right_content section div:last-child {
+        display: none;
+    }
+
+    .tp_right_content section div {
+        height: 4rem;
+        width: 33%;
+    }
+
+    .tp_footer {
+        display: none;
+    }
+
+    .tp_patternLeft {
+        width: 4rem;
+        top: 47%;
+        left: 22%;
+    }
+
+    .tp_patternMid {
+        width: 3rem;
+        top: 43%;
+        left: 71%;
+    }
+
+    .tp_patternRight {
+        top: 16%;
+        right: -10%;
+        width: 14rem;
+    }
+}

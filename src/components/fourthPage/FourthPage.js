@@ -10,8 +10,10 @@ const FourthPage = () => {
     return (
         <div className="fourthPage_wrapper">
             <div className="fourthPage_content">
-                <div className="four_image1"><img src={image1} alt="" /></div>
-                <div className="four_image2"><img src={image2} alt="" /></div>
+                <section className="four_left_content">
+                    <div className="four_image1"><img src={image1} alt="" /></div>
+                    <div className="four_image2"><img src={image2} alt="" /></div>
+                </section>
 
 
                 <section className="four_right_content">
