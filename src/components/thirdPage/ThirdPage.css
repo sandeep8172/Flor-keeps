@@ -278,3 +278,26 @@
         width: 14rem;
     }
 }
+
+
+/* media querry for medium screen mobile  */
+@media (max-width:376px) {
+    .tp_patternLeft {
+        width: 3.5rem;
+        top: 45%;
+        left: 22%;
+    }
+
+    .tp_patternMid {
+        width: 3rem;
+        top: 40%;
+    }
+}
+
+/* media querry for small screen mobile  */
+@media (max-width:321px) {
+    .tp_patternLeft {
+        top: 44%;
+        left: 21%;
+    }
+}

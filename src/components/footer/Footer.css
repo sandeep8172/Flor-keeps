@@ -309,3 +309,19 @@
         width: 100%;
     }
 }
+
+/* media querry for medium screen mobile  */
+
+@media (max-width:376px) {
+    .footer_mid section {
+        width: 65%;
+    }
+}
+
+/* media querry for small screen mobile  */
+
+@media (max-width:321px) {
+    .footer_mid section {
+        width: 75%;
+    }
+}

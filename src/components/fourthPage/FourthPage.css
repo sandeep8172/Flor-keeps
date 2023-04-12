@@ -7,6 +7,10 @@
     padding: 7rem 5rem 0 5rem;
 }
 
+.four_left_content {
+    display: flex;
+}
+
 .four_image1 {
     flex: 1;
 }
@@ -42,7 +46,7 @@
 
 .four_right_content p {
     margin-top: 1rem;
-    width: 90%;
+    width: 100%;
     font-size: 0.8rem;
     color: #191245;
 }
@@ -85,7 +89,7 @@
 @media (max-width:768px) {
     .fourthPage_content {
         display: flex;
-        padding: 4rem 2rem 0 2rem;
+        padding: 4rem 1rem 0 1rem;
     }
 
     .four_image1 img {
@@ -94,10 +98,6 @@
 
     .four_image2 img {
         width: 70%;
-    }
-
-    .four_right_content {
-        margin-top: 2rem;
     }
 
     .four_right_content h1 {
@@ -129,8 +129,8 @@
     }
 
     .four_patternLeft {
-        top: 71%;
-        left: 20%;
+        top: 65%;
+        left: 25%;
         width: 4rem;
     }
 
@@ -229,7 +229,7 @@
 
     .four_patternLeft {
         z-index: -1;
-        top: 40%;
+        top: 37%;
         left: 35%;
         width: 15%;
     }
@@ -239,5 +239,46 @@
         top: 60%;
         right: 10%;
         width: 3rem;
+    }
+}
+
+
+/* media querry for medium screen mobile  */
+
+@media (max-width:376px) {
+    .four_right_content h1 {
+        margin-bottom: 70%;
+    }
+
+    .four_patternTop {
+        top: 79%;
+    }
+
+    .four_patternLeft {
+        top: 37%;
+    }
+
+    .four_patternRight {
+        top: 58%;
+    }
+}
+
+/* media querry for small screen mobile  */
+
+@media (max-width:321px) {
+    .four_right_content h1 {
+        margin-bottom: 72%;
+    }
+
+    .four_patternTop {
+        top: 79%;
+    }
+
+    .four_patternLeft {
+        top: 35%;
+    }
+
+    .four_patternRight {
+        top: 55%;
     }
 }

@@ -207,3 +207,25 @@
     }
 
 }
+
+/* media querry for medium screen mobile  */
+
+@media (max-width:426px) {
+    .rose3_backgrond {
+        top: 18%;
+    }
+}
+
+/* media querry for medium screen mobile  */
+
+@media (max-width:321px) {
+    .rose3_backgrond {
+        width: 55%;
+        top: 16%;
+        left: 23%
+    }
+
+    .fifth_button {
+        bottom: 5%;
+    }
+}

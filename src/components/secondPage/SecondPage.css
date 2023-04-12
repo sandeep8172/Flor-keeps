@@ -217,7 +217,7 @@
     .sp_left_content h3 {
         font-size: 0.8rem;
         text-align: left;
-        margin-left: 15%;
+        margin-left: 20%;
     }
 
 
@@ -257,6 +257,40 @@
 
     .sp_pattern {
         display: none;
+    }
+
+}
+
+/* media querry for medium screen mobile  */
+@media (max-width:376px) {
+    .sp_left_content h1 {
+        margin-bottom: 87%;
+    }
+
+    .sp_left_content p {
+        width: 75%;
+    }
+
+    .sp_left_content h3 {
+        margin-left: 12.5%;
+    }
+
+
+    .sp_right_content {
+        top: 9%;
+    }
+
+    .sp_image {
+        width: 75%;
+    }
+
+}
+
+/* media querry for small screen mobile  */
+@media (max-width:321px) {
+    .sp_text {
+        left: 32%;
+        top: 33%;
     }
 
 }
