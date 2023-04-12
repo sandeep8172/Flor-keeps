@@ -139,17 +139,16 @@
 
 .fp_right_content p span img {
     width: 1.5rem;
+    padding: 0.5rem;
 }
 
 .fp_right_content p span img:first-child {
     margin-right: 1rem;
-    padding: 0.5rem;
     border: 1px solid #EDEDED;
     border-radius: 50%;
 }
 
 .fp_right_content p span img:last-child {
-    padding: 0.5rem;
     border-radius: 50%;
     background: #D76161;
 
@@ -189,4 +188,98 @@
 
 .home_hr {
     width: 85%;
+}
+
+/* media screen for tablet */
+@media (max-width:768px) {
+    .menu_text {
+        transform: translate(42%, 50%);
+        font-size: 1.5rem;
+    }
+
+    .menu_hr {
+        transform: translateX(-41%);
+    }
+
+    .rondText {
+        position: absolute;
+        width: 3.5rem;
+        top: 33%;
+        left: 58%;
+    }
+
+    .firstPage_content {
+        display: block;
+    }
+
+    .fp_left_content {
+        padding-left: 2rem;
+        padding-top: 0;
+    }
+
+    .fp_left_content h1 {
+        font-size: 3rem;
+        padding-left: 0;
+    }
+
+    .slide_left {
+        color: #191245 !important;
+        margin-left: 0;
+    }
+
+    .fp_left_content p {
+        display: none;
+    }
+
+    .fp_rose {
+        width: 15rem;
+        left: 33%;
+        top: 41%;
+    }
+
+    .fp_right_content {
+        padding-right: 2rem;
+        margin-top: -13rem;
+    }
+
+    .home_image {
+        width: 40%;
+    }
+
+    .fp_right_content p {
+        font-size: 0.9rem;
+        width: 40%;
+        margin-left: 60%;
+    }
+
+    .fp_right_content p span img {
+        width: 1rem;
+        padding: 0.3rem;
+    }
+
+    .fp_footer {
+        padding: 0 2rem;
+        margin-top: 2rem;
+    }
+
+    .fp_footer p {
+        display: none;
+    }
+
+    .fp_footer hr {
+        width: 100%;
+
+    }
+
+    .fp_left_content h3 {
+        margin-top: 1rem;
+        font-size: 1rem;
+    }
+
+    .fp_leftPattern {
+        width: 20rem;
+        top: 19%;
+
+    }
+
 }

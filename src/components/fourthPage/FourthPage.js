@@ -16,7 +16,7 @@ const FourthPage = () => {
 
                 <section className="four_right_content">
                     <h1>The <br /><span>Good Stuff</span></h1>
-                    <p>our preserved rogers don't require water to stay beautiful in your home. That's why we are saving it for people who need it the most.</p>
+                    <p className="four_firstPara">our preserved rogers don't require water to stay beautiful in your home. That's why we are saving it for people who need it the most.</p>
                     <p>Flor keeps each partnering up with <b>well aware</b> to help provide sustainable & innovative solutions to water scarcity and contamination in both Kenya & Tanzania! Moving forward, with every stem sold, we will provide over 160 people with clean Water this year! MASSIVE steps forward towards a better world.</p>
                     <h3>Visit wellawareworld.org<img src={arrowNext} alt="" /></h3>
                 </section>
