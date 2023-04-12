@@ -4,6 +4,7 @@
     margin-top: 2rem;
     padding-bottom: 3rem;
     z-index: -2;
+    overflow-x: hidden;
 }
 
 

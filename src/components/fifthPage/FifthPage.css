@@ -137,13 +137,13 @@
 
 @media (max-width:426px) {
     .fifthPage_wrapper {
-        background-size: 200%;
+        background-size: 250%;
         margin-top: 0;
     }
 
     .fifth_curvedText {
         top: 4%;
-        width: 200%;
+        width: 250%;
     }
 
     .fifthPage_content {
